@@ -1,9 +1,8 @@
 [build]
-  base = "frontend"
+  base = "Frontend"
   command = "npm ci && npm run build"
   publish = "build"
 
-# SPA routing (React Router / Ionic)
 [[redirects]]
   from = "/*"
   to = "/index.html"
